@@ -1,0 +1,29 @@
+.orders-calendar-view {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.calendar-container {
+	margin-top: 20px;
+}
+
+.selected-date-orders {
+	margin-top: 20px;
+}
+
+.selected-date-orders ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.selected-date-orders li {
+	cursor: pointer;
+	padding: 10px;
+	margin-bottom: 5px;
+	background-color: #f4f4f4;
+	border-radius: 4px;
+}
+
+.selected-date-orders li:hover {
+	background-color: #e0e0e0;
+}
