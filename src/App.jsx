@@ -38,6 +38,8 @@ function App() {
         <Routes>
           <Route element={<BaseLayout />}>
             <Route path="/" element={<Dashboard />} />
+            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
+
             <Route path="*" element={<PageNotFound />} />
 
             <Route path="/products" element={<ProductsTable />} />
